@@ -1,0 +1,146 @@
+@media screen and (max-width:1000px) {
+    .nav1 div{
+        margin-left:15px;
+
+    }
+    main{
+        margin-top: 50px;
+        flex-direction: column;
+        margin-left: 15px;
+    }
+    .content{
+        padding-top:10px;
+        padding-left: 15px;
+        width: 95%;
+    }
+    .img-sec{
+
+        width: 100vw;
+    }
+    .image{
+        margin-top: 50px;
+        width:90vw;
+        height: 40vh;
+        
+    }
+
+    aside{
+        margin-top: 500px;
+        margin-left: 15vw;
+        margin-right: 15vw;
+        width: 450px;
+
+    }
+
+    
+}
+
+
+@media screen and (max-width:600px) {
+    body{
+        /* border:2px solid red; */
+        margin: 0;
+        padding: 0;
+
+    }
+    .content{
+        width:95%;
+        
+    }
+    .navbar{
+        width:90vw;
+        flex-direction: column;
+        height: 40px;
+    }
+    .nav1{
+        margin-top: 5px;
+    }
+    .nav2{
+        position: absolute;
+        margin-top: 150px;
+        margin-left: 35vw;
+        width: 20vw;
+        transition: all 2s ease-out;
+        
+        
+    }
+    .nav2 ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav2 ul li{
+        margin:35px 0px;
+    }
+    .nav2-invisible{
+        display: none;
+    }
+    .hide{
+        display: none;
+    } 
+     
+    .hamburger{
+        position: absolute;
+        opacity: 1;
+        cursor: pointer;
+        right: 5%;
+        z-index: 2;
+    }
+    .zeropacity{
+        opacity:0;
+    }
+    
+    .cross{
+        
+        position: absolute;
+        cursor: pointer;
+        color:white;
+        right: 8%;
+        z-index:0;
+    }
+    
+    main{
+        position: relative;
+        margin-top: 10px;
+
+    }
+    .content h1{
+        font-size: 40px;
+    }
+    .para{
+        font-size: 25px;
+        margin-top: 25px;
+        width: 65vw;
+    }
+    .read{
+        margin-top:20px;
+    }
+
+    .img-sec{
+
+        width: 100vw;
+    }
+    .image{
+        margin-top: 50px;
+        width:90vw;
+        height: 25vh;
+        
+    }
+    aside{
+        margin-top: 325px;
+        margin-left: 15vw;
+        margin-right: 15vw;
+        width: 70vw;
+        
+
+    }
+    .details{
+        font-size: 20px;
+    }
+    .foot{
+        margin-top:50px;
+    }
+
+    
+}
+
+
