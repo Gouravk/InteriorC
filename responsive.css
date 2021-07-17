@@ -45,15 +45,18 @@
     }
     .content{
         width:95%;
+        padding-left:0;
         
     }
     .navbar{
         width:90vw;
         flex-direction: column;
         height: 40px;
+        padding-left: 0;
     }
     .nav1{
         margin-top: 5px;
+        margin-left:0px;
     }
     .nav2{
         position: absolute;
@@ -69,7 +72,7 @@
         align-items: center;
     }
     .nav2 ul li{
-        margin:35px 0px;
+        margin:20px 0px;
     }
     .nav2-invisible{
         display: none;
@@ -101,15 +104,16 @@
     main{
         position: relative;
         margin-top: 10px;
+        
 
     }
     .content h1{
         font-size: 40px;
     }
     .para{
-        font-size: 25px;
+        font-size: 20px;
         margin-top: 25px;
-        width: 65vw;
+        width: 70vw;
     }
     .read{
         margin-top:20px;
@@ -126,7 +130,7 @@
         
     }
     aside{
-        margin-top: 325px;
+        margin-top: 300px;
         margin-left: 15vw;
         margin-right: 15vw;
         width: 70vw;
