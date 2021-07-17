@@ -106,12 +106,12 @@ main{
     
 }
 .para{
-    margin-top: 50px;
+    margin-top: 30px;
     width: 400px;
     font-size: 30px;
 }
 .read{
-    margin-top: 50px;
+    margin-top: 25px;
     font-size: 20px;
 }
 .img-sec{
@@ -130,7 +130,8 @@ main{
 
 aside{
     border-bottom: 7px solid  rgb(15, 15, 15);
-    margin-top: 5vh;
+    position: sticky;
+    margin-top: 0vh;
     margin-left: 65vw;
     width: 400px;
     padding-left: 20px;
@@ -138,10 +139,8 @@ aside{
     opacity: 1.0;
     z-index: 1;
     background-color: rgb(18, 18, 19);
-    position: sticky;
     font-family: 'El Messiri', sans-serif;
-
-    /* border:2px solid yellowgreen; */
+   /* border:2px solid yellowgreen; */
 }
 
 
